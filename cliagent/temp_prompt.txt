@@ -1,0 +1,48 @@
+[Current Directory: /run/media/fullname/back/simpleBot/cliagent]
+Directory tree for: /run/media/fullname/back/simpleBot/cliagent
+└── __pycache__/
+
+[Running Processes Info]:
+Running Processes:
+  None
+
+
+[CONVERSATION HISTORY]
+LLM: ```json
+{
+  "action": "run_command",
+  "args": {
+    "command_string": "rm *.txt"
+  },
+  "cid": "rm-all-txt-001"
+}
+```
+User: clear
+LLM: I understand you would like to clear the conversation history. However, I do not have an action available to directly clear the conversation history from my end.
+User: run clear
+LLM: ```json
+{
+  "action": "run_command",
+  "args": {
+    "command_string": "clear"
+  },
+  "cid": "run-clear-001"
+}
+```
+
+[Previous Action Result]: Command 'clear' completed with exit code 0
+
+IMPORTANT: When I ask you to run commands or perform file operations, respond using ONLY the JSON format.
+Available actions: read_file, create_file, update_file, delete_file, create_folder, delete_folder, list_directory, change_directory, run_command, send_input_to_process, kill_process
+For example, to create a Next.js app, respond EXACTLY like this:
+```json
+{
+  "action": "run_command",
+  "args": {
+    "command_string": "npx create-next-app@latest ."
+  },
+  "cid": "next-installation-001"
+}
+```
+
+User request: hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
