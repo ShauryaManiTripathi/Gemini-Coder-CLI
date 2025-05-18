@@ -39,3 +39,8 @@ pip install -r requirements.txt
 ```
 
 3. Create a `.env` file with your Google API key:
+
+4. Run the agent:
+```bash
+python cliagent_runner.py
+```
