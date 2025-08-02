@@ -1,6 +1,7 @@
 # Gemini CLI Agent
 
 A powerful terminal assistant powered by Google's Gemini AI model that helps you interact with your local environment through natural language.
+<img width="740" height="415" alt="image" src="https://github.com/user-attachments/assets/866993c5-6b52-442f-90b4-7df60c15e73a" />
 
 ![Gemini CLI Agent](https://img.shields.io/badge/Gemini-CLI%20Agent-blue)
 
